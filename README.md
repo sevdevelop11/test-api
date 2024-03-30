@@ -41,25 +41,28 @@ This Node.js application allows you to manage characters including viewing all c
 5. **Start the application:**
    npm start
 
-Usage
-Character Management
-View all characters: Navigate to /characters endpoint.
-Search characters by name: Navigate to /characters?name=charactername endpoint.
-Delete characters by name: Send a DELETE request to /characters/:name endpoint, replacing :name with the name of the character to delete.
-Add new characters: Send a POST request to /characters endpoint with a JSON payload containing character information.
-API Endpoints
+# Usage
+## Character Management
+- View all characters: Navigate to /characters endpoint.
+- Search characters by name: Navigate to /characters?name=charactername endpoint.
+- Delete characters by name: Send a DELETE request to /characters/:name endpoint, replacing :name with the name of the character to delete.
+- Add new characters: Send a POST request to /characters endpoint with a JSON payload containing character information.
+
+## API Endpoints
 Login
-URL: /api/login
-Method: POST
-Data Params: { "username": "your_username", "password": "your_password" }
-Register
-URL: /api/register
-Method: POST
-Data Params: { "username": "new_username", "password": "new_password" }
-Contributing
+- URL: /api/login
+- Method: POST
+- Data Params: { "username": "your_username", "password": "your_password" }
+- Register
+
+- URL: /api/register
+- Method: POST
+- Data Params: { "username": "new_username", "password": "new_password" }
+
+ ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
